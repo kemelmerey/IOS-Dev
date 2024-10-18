@@ -22,7 +22,9 @@ Swift Version: 5.0 or later
 ## Instructions to Build and Run
 
 1.Clone the repository to your local machine:
+'''
 git clone <https://github.com/kemelmerey/IOS-Dev/tree/89b83c22d348e2c79f347327bc5bb24ebe31edb4/Assignment%235/Xylophone>
+'''
 2.Open the project in Xcode by double-clicking the Xylophone.xcodeproj file.
 3.Build and run the app:
 Select the target device (iPhone Simulator or a physical device).
