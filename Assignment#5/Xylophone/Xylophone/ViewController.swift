@@ -10,6 +10,20 @@ class ViewController: UIViewController {
     }
 
     @IBAction func keyPressed(_ sender: UIButton) {
+        
+        // Animate button press to reduce opacity
+        UIView.animate(withDuration: 0.1) {
+            sender.alpha = 0.5
+        }
+        
+        // Restore button opacity after 0.2 seconds
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            UIView.animate(withDuration: 0.1) {
+                sender.alpha = 1.0
+            }
+        }
+        
+        // Play sound
         guard
             let title = sender.title(for: .normal),
             let urlForSound = Bundle.main.url(forResource: title, withExtension: "wav")
@@ -21,3 +35,4 @@ class ViewController: UIViewController {
         player?.play()
     }
 }
+
