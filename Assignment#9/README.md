@@ -3,9 +3,9 @@
 ## 💻 Developer
 Kemel Merey
 ## Features
-- ** A Tab Bar Controller with three tabs: Film, Book, and Music.
+- A Tab Bar Controller with three tabs: Film, Book, and Music.
 - **Films**: My collection of favorite movies name.
-- **Genre **: Each movie entry includes the genre.
+- **Genre**: Each movie entry includes the genre.
 - **Images**: Beautiful poster images for each movie make this list a visual delight.
 - **Dynamic Table View**: Smooth scrolling with details for each film, using Swift and UIKit.
 
