@@ -31,6 +31,7 @@ Kemel Merey
     git checkout
     ```
 
+
 2. **Open in Xcode**
     - Open the `.xcodeproj` file in Xcode.
     - Build and run the project on the simulator or your iOS device.
@@ -44,3 +45,4 @@ Kemel Merey
 
 ## Video
 
+https://github.com/user-attachments/assets/dd43e34a-cb07-4788-bf40-a20d81dff0cb
